@@ -1,0 +1,302 @@
+[
+ 
+  {
+    "id": "1",
+    "name": "Elegant Evening Gown",
+    "price": 3499,
+    "originalPrice": 4999,
+    "category": "Women",
+    "gender": "kids",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.8,
+      "count": 132
+    }
+  },
+  {
+    "id": "2",
+    "name": "Classic Men's Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "3",
+    "name": "Trendy Kids Wear",
+    "price": 999,
+    "originalPrice": 1499,
+    "category": "Kids",
+    "gender": "unisex",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": false,
+    "reviews": {
+      "rating": 4.3,
+      "count": 57
+    }
+  },
+  {
+    "id": "4",
+    "name": "Luxury Handbag women",
+    "price": 5999,
+    "originalPrice": 7999,
+    "category": "Accessories",
+    "gender": "women",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.9,
+      "count": 201
+    }
+  },
+  {
+    "id": "limited-edition-tshirt",
+    "name": "Premium Cotton T-Shirt (Limited Edition)",
+    "price": 2399,
+    "originalPrice": 2999,
+    "category": "Limited Edition",
+    "gender": "unisex",
+    "description": "Crafted with luxury organic cotton and precision stitching. Experience unparalleled comfort with our limited edition designer wear.",
+    "image": "https://images.pexels.com/photos/9558699/pexels-photo-9558699.jpeg",
+    "additionalImages": [
+      "https://images.pexels.com/photos/9558603/pexels-photo-9558603.jpeg",
+      "https://images.pexels.com/photos/9558725/pexels-photo-9558725.jpeg"
+    ],
+    "inStock": true,
+    "reviews": {
+      "rating": 4.8,
+      "count": 142,
+      "details": [
+        {
+          "user": "Sarah J.",
+          "rating": 5,
+          "comment": "Absolutely love this t-shirt! The quality is exceptional and it's so comfortable."
+        },
+        {
+          "user": "Mike R.",
+          "rating": 4,
+          "comment": "Great fit and material. Only wish there were more color options."
+        }
+      ]
+    }
+  },
+
+  
+  {
+    "id": "5",
+    "name": "Slim Fit Men's Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "6",
+    "name": "Premium Men's Suit Jacket",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "7",
+    "name": "Formal Evening Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "8",
+    "name": "Business Casual Jacket",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "9",
+    "name": "Luxury Wool Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "10",
+    "name": "Designer Men's Coat",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "11",
+    "name": "Classic Fit Suit Jacket",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "12",
+    "name": "Executive Men's Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "13",
+    "name": "Stretch Comfort Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "14",
+    "name": "Double-Breasted Suit",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "15",
+    "name": "Single-Breasted Formal Jacket",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "16",
+    "name": "Premium Linen Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "17",
+    "name": "Office Wear Men's Jacket",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "18",
+    "name": "Trendy Men's Sport Coat",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  },
+  {
+    "id": "19",
+    "name": "Lightweight Summer Blazer",
+    "price": 2599,
+    "originalPrice": 3799,
+    "category": "Men",
+    "gender": "men",
+    "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "inStock": true,
+    "reviews": {
+      "rating": 4.6,
+      "count": 89
+    }
+  }
+]

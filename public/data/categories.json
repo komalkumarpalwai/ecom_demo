@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Men",
+    "image": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg",
+    "link": "/category/men"
+  },
+  {
+    "title": "Women",
+    "image": "https://images.pexels.com/photos/3182368/pexels-photo-3182368.jpeg",
+    "link": "/category/women"
+  },
+  {
+    "title": "Kids",
+    "image": "https://images.pexels.com/photos/1648376/pexels-photo-1648376.jpeg",
+    "link": "/category/kids"
+  }
+]
