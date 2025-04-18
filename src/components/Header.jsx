@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faShoppingCart, faUser, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faShoppingCart, faUser, faBars, faTimes, faHome } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
           <Link to="/" className="text-3xl md:text-4xl font-bold font-montserrat">
             <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent 
               transition-all duration-500 group-hover:bg-gradient-to-l group-hover:scale-105">
-              LuxeWear
+             Radhika fashion
             </span>
           </Link>
           <div className="absolute -bottom-1 left-0 w-0 h-1 bg-gradient-to-r from-blue-400 to-blue-600 
@@ -83,8 +83,9 @@ const Header = () => {
               3
             </span>
           </Link>
+          {/* Updated Profile Link */}
           <Link 
-            to="/profile" 
+            to="/profile"  // Corrected Profile route
             className="p-2 hover:text-blue-400 transition-all duration-500 hover:scale-110"
           >
             <FontAwesomeIcon icon={faUser} className="text-2xl" />
@@ -109,10 +110,10 @@ const Header = () => {
             </button>
           </div>
           <div className="flex flex-col items-center space-y-4 text-lg w-full">
-            {['Men', 'Women', 'Kids', 'Cart', 'Profile'].map((item) => (
+            {['Men', 'Women', 'Kids', 'Cart'].map((item) => (
               <Link 
                 key={item}
-                to={`/${item.toLowerCase()}`} 
+                to={`/category/${item.toLowerCase()}`} 
                 className="relative py-2 group transition-all duration-500 w-full text-center"
                 onClick={toggleMobileMenu}
               >
@@ -124,8 +125,42 @@ const Header = () => {
                 </div>
               </Link>
             ))}
+            {/* Updated Profile Link for Mobile Menu */}
+            <Link 
+              key="Profile"
+              to="/profile"  // Corrected Profile route
+              className="relative py-2 group transition-all duration-500 w-full text-center"
+              onClick={toggleMobileMenu}
+            >
+              <div className="flex flex-col items-center mx-auto max-w-xs">
+                <span className="group-hover:text-blue-400 transition-all duration-500 group-hover:-translate-y-1">
+                  Profile
+                </span>
+                <div className="w-0 h-[2px] bg-blue-400 transition-all duration-500 group-hover:w-3/4" />
+              </div>
+            </Link>
           </div>
         </div>
+      </div>
+
+      {/* Fixed Bottom Navigation for Small Screens */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 bg-black text-white p-4 flex justify-between items-center z-50">
+        <Link to="/" className="flex flex-col items-center">
+          <FontAwesomeIcon icon={faHome} className="text-xl" />
+          <span>Home</span>
+        </Link>
+        <Link to="/category/men" className="flex flex-col items-center">
+          <FontAwesomeIcon icon={faSearch} className="text-xl" />
+          <span>Products</span>
+        </Link>
+        <Link to="/cart" className="flex flex-col items-center">
+          <FontAwesomeIcon icon={faShoppingCart} className="text-xl" />
+          <span>Cart</span>
+        </Link>
+        <Link to="/profile" className="flex flex-col items-center">
+          <FontAwesomeIcon icon={faUser} className="text-xl" />
+          <span>Profile</span>
+        </Link>
       </div>
     </header>
   );
